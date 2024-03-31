@@ -1,0 +1,27 @@
+    db.company_drives.insertMany([
+        {
+            "drive_id":ObjectId('507f191e810c19729de860ea'),
+            "drive_name": "Amazon",
+            "drive_date":ISODate("2020-12-20T14:10:30.000Z"),
+        },
+        {
+        "drive_id":ObjectId('507f1f77bcf86cd799439011'),
+        "drive_name": "Accenture",
+        "drive_date": ISODate("2020-10-23T06:31:15.000Z"),
+        },
+        {
+        "drive_id":ObjectId('00000020f51bb4362eee2a4d'),
+        "drive_name": "Cognizant",
+        "drive_date": ISODate("2020-10-15T14:10:30Z"),
+        },
+        {
+        "drive_id":ObjectId('542c2b97bac0595474108b48'),
+        "drive_name": "Infosys",
+        "drive_date": ISODate("2020-12-14T16:54:40.000Z"),
+        },
+        {
+        "drive_id":ObjectId('5f92cdce0cf217478ba93563'),
+        "drive_name": "Wipro",
+        "drive_date": ISODate("2020-11-27T16:54:40.000Z"),
+        }])
+        

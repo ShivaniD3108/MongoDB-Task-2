@@ -1,0 +1,32 @@
+db.codekata.insertMany([
+    {
+        "kata_id":"2024201",
+        "user_id": ObjectId('60a83e9dcb61e23b2830c581'),
+        "problem_solved_date":ISODate("2020-10-18T14:10:30.000Z"),
+        "problem_count": 11
+      },
+    {
+      "kata_id":"2024202",
+      "user_id": ObjectId('60a83e9dcb61e23b2830c582'),
+      "problem_solved_date": ISODate("2020-11-01T06:31:15.000Z"),
+      "problem_count": 9
+    },
+    {
+     "kata_id":"2024203",
+      "user_id": ObjectId('60a83e9dcb61e23b2830c583'),
+      "problem_solved_date": ISODate("2020-10-19T14:10:30Z"),
+      "problem_count": 12
+    },
+    {
+     "kata_id":"2024204",
+      "user_id": ObjectId('60a83e9dcb61e23b2830c584'),
+      "problem_solved_date": ISODate("2020-10-28T06:31:15Z"),
+      "problem_count": 9
+    },
+    {
+      "kata_id":"2024205",
+      "user_id": ObjectId('60a83e9dcb61e23b2830c585'),
+      "problem_solved_date": ISODate("2020-09-15T11:30:05Z"),
+      "problem_count": 8
+    }])
+    

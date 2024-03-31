@@ -1,0 +1,42 @@
+db.tasks.insertMany([
+    {
+        "task_id":ObjectId("507f1f77bcf86cd799439011"),
+        "user_id": ObjectId('60a83e9dcb61e23b2830c585'),
+        "topic_id": ObjectId('5349b4ddd2781d08c09890f3'),
+        "task_name":"MySQL queries",
+        "date":ISODate("2020-09-18T14:10:30.000Z"),
+        "task_status": "pending"
+      },
+    {
+      "task_id":ObjectId("507f1f77bcf86cd799439012"),
+      "user_id": ObjectId('60a83e9dcb61e23b2830c583'),
+      "topic_id": ObjectId('60a83e9dcb61e23b2830c508'),
+      "task_name":"Java8",
+      "date": ISODate("2020-10-19T06:31:15.000Z"),
+      "task_status": "submitted"
+    },
+    {
+     "task_id":ObjectId("507f1f77bcf86cd799439013"),
+      "user_id": ObjectId('60a83e9dcb61e23b2830c581'),
+      "topic_id": ObjectId('5349b4ddd2781d08c09890f2'),
+      "task_name":"Microservices",
+      "date": ISODate("2020-11-22T14:10:30Z"),
+      "task_status": "submitted"
+    },
+    {
+     "task_id":ObjectId("507f1f77bcf86cd799439014"),
+      "user_id": ObjectId('60a83e9dcb61e23b2830c582'),
+      "topic_id": ObjectId('5f92cbf10cf217478ba93561'),
+      "task_name":"Springboot Application",
+      "date": ISODate("2020-12-03T06:31:15Z"),
+      "task_status": "pending"
+    },
+    {
+      "task_id":ObjectId("507f1f77bcf86cd799439015"),
+      "user_id": ObjectId('60a83e9dcb61e23b2830c584'),
+      "topic_id": ObjectId('5f92cbf10cf217478ba93223'),
+      "task_name":"Test suite",
+      "date": ISODate("2020-10-11T11:30:05Z"),
+      "task_status": "submitted"
+    }])
+    

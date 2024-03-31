@@ -1,0 +1,27 @@
+db.mentors.insertMany([
+    {
+        "mentor_id": ObjectId('807f191a810c19729de860ae'),
+        "name":"Rishi",
+        "mentee_count": 15
+      },
+    {
+      "mentor_id": ObjectId('582ecee28feed271b9f54e58'),
+      "name": "Mary",
+      "mentee_count": 15
+    },
+    {
+     "mentor_id":ObjectId('582ecee28feed271b9f54e59'),
+      "name": "Yukthandra",
+      "mentee_count": 20
+    },
+    {
+     "mentor_id":ObjectId('582ecee28feed271b9f54f61'),
+      "name": "Susan",
+      "mentee_count": 25
+    },
+    {
+      "mentor_id": ObjectId('582ecee28feed271b9f54e60'),
+      "name": "Joseph",
+      "mentee_count": 23
+    }])
+    

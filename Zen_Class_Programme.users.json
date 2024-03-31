@@ -1,0 +1,33 @@
+db.users.insertMany[{
+  "user_id":ObjectId('60a83e9dcb61e23b2830c581'),
+  "name": "Sharmil",
+  "email": "sharmi2001@gmail.com",
+  "role": "student"
+},
+{
+  "user_id": ObjectId('60a83e9dcb61e23b2830c582'),
+  "name": "Jason",
+  "email": "jasonmax@gmail.com",
+  "role": "mentor"
+},
+{
+
+  "user_id": ObjectId('60a83e9dcb61e23b2830c583'),
+  "name": "Vibhan",
+  "email": "vibhangs@gmail.com",
+  "role": "student"
+},
+{
+  "user_id": ObjectId('60a83e9dcb61e23b2830c584'),
+  "name": "Haritha",
+  "email": "harithasaji@gmail.com",
+  "role": "mentor"
+},
+{
+
+  "user_id": ObjectId('60a83e9dcb61e23b2830c585'),
+  "name": "Riha",
+  "email": "rihasaki@gmail.com",
+  "role": "mentor"
+}]
+
